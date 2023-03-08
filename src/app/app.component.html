@@ -1,0 +1,8 @@
+
+
+<div class="app-container">
+  <div *ngFor = "let announcement of announcement" class="announcements">
+    <app-announcement [message] = announcement.message [title] = announcement.title [author] = announcement.author></app-announcement>
+  </div>
+</div>
+
